@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-using Microsoft.Xna.Framework;
-using Microsoft.Xna.Framework.Content;
+﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
 namespace MonoCharacter
@@ -12,10 +6,6 @@ namespace MonoCharacter
     public interface ICharacter
     {
         void Initialize();
-
-        void LoadContent(ContentManager manager);
-
-        void UnloadContent();
 
         void Update(GameTime gameTime);
 
